@@ -1,0 +1,92 @@
+{
+  "nav": { "home": "Home", "vehicles": "Vehicles", "stays": "Stays", "activities": "Activities", "services": "Services", "packs": "Packages", "contact": "Contact", "book": "Book now", "whatsapp": "WhatsApp 24/7" },
+  "hero": {
+    "eyebrow": "Private concierge — Northern Morocco",
+    "title": "Your private concierge in Northern Morocco",
+    "subtitle": "Villas, premium vehicles, activities, private services and tailor-made experiences — book your stay with a team available 24/7.",
+    "ctaPrimary": "Plan my stay",
+    "ctaSecondary": "Browse experiences",
+    "micro": "Quick reply on WhatsApp — support before, during and after your stay.",
+    "badges": { "available": "24/7 availability", "secure": "Secure booking", "premium": "Premium services", "north": "Northern Morocco" },
+    "stats": { "experiences": "120+ curated experiences", "support": "24/7 support", "payment": "Secure payment", "verified": "Verified services" }
+  },
+  "search": { "destination": "Destination", "destinationPlaceholder": "Tangier, Tetouan, Chefchaouen…", "service": "Service type", "servicePlaceholder": "All services", "arrival": "Arrival", "departure": "Departure", "guests": "Guests", "guest_one": "{{count}} guest", "guest_other": "{{count}} guests", "search": "Search" },
+  "categories": {
+    "title": "Your entire stay, organised in one place",
+    "subtitle": "From essentials to exclusive experiences, BIYOUU centralises every detail of your trip.",
+    "from": "From", "discover": "Discover",
+    "items": {
+      "vehicles": { "title": "Premium vehicles", "desc": "City cars, SUVs, G-Class, motorbikes — airport or villa delivery.", "price": "350 MAD / day" },
+      "villas": { "title": "Villas & apartments", "desc": "Hand-picked stays with pool, sea view or Moroccan patio.", "price": "1,200 MAD / night" },
+      "aquatic": { "title": "Water activities", "desc": "Yacht, jet-ski, sunset cruise, private days at sea.", "price": "800 MAD / pers." },
+      "land": { "title": "Land activities", "desc": "Quad, motocross, paintball, desert and nature trips.", "price": "450 MAD / pers." },
+      "services": { "title": "Private services", "desc": "Private chef, housekeeping, childcare, private driver.", "price": "On request" },
+      "restaurants": { "title": "Best addresses", "desc": "Outstanding tables, private experiences, assisted bookings.", "price": "Free advice" }
+    }
+  },
+  "experience": {
+    "title": "A smooth, elegant, fully assisted experience",
+    "subtitle": "BIYOUU coordinates every detail so you can simply enjoy.",
+    "steps": {
+      "choose": { "title": "Choose your services", "desc": "Browse our categories or request a tailor-made package." },
+      "dates": { "title": "Confirm your dates", "desc": "Availability checked in real time by our team." },
+      "pay": { "title": "Pay securely", "desc": "Encrypted payment, instant receipt, protected data." },
+      "enjoy": { "title": "Enjoy your stay", "desc": "Dedicated 24/7 WhatsApp support for any request." }
+    }
+  },
+  "vehicles": {
+    "eyebrow": "Private mobility",
+    "title": "Premium mobility, from the moment you arrive",
+    "subtitle": "Verified vehicles delivered to the airport or your villa, with or without a driver.",
+    "points": { "verified": "Verified, well-maintained vehicles", "delivery": "Airport or stay delivery", "driver": "Private driver on request", "docs": "Required documents clearly listed" },
+    "cta": "Book a vehicle", "perDay": "/ day",
+    "fleet": { "city": "Elegant city car", "suv": "Comfort SUV", "gclass": "G-Class luxury", "moto": "Sport motorbike" }
+  },
+  "villas": { "eyebrow": "Exceptional stays", "title": "Villas, apartments and curated addresses", "subtitle": "Stays designed for comfort, privacy and the Moroccan experience.", "tags": ["Sea view", "Private pool", "Patio", "Family", "Couples"], "cta": "View stays" },
+  "aquatic": { "eyebrow": "Sea & thrills", "title": "Sea, yacht, jet-ski and private days", "subtitle": "Experience the Moroccan coast differently with curated, supervised activities.", "items": ["Boat day", "Yacht charter", "Jet-ski", "Sunset cruise", "Water package"], "cta": "Explore water activities" },
+  "land": { "eyebrow": "Land adventures", "title": "Adrenaline, desert and discoveries", "subtitle": "Quad, motocross, paintball, trips — for all levels, with pro supervision.", "items": ["Quad", "Motocross", "Paintball", "Trips", "Nature activities"], "cta": "Discover adventures" },
+  "services": {
+    "eyebrow": "Private services",
+    "title": "A discreet, vetted team at your service",
+    "subtitle": "Hand-picked staff, checked references, availability on your schedule.",
+    "items": {
+      "chef": { "title": "Private chef", "desc": "Moroccan or international cuisine, plated at your home.", "cta": "Book a chef" },
+      "housekeeping": { "title": "Premium housekeeping", "desc": "Daily or one-off care for your stay.", "cta": "Request service" },
+      "childcare": { "title": "Childcare", "desc": "Experienced multilingual nannies.", "cta": "Arrange childcare" },
+      "driver": { "title": "Private driver", "desc": "Hourly, daily or for transfers.", "cta": "Book a driver" },
+      "transfer": { "title": "Airport transfer", "desc": "VIP welcome, vehicle of choice, real-time tracking.", "cta": "Plan my arrival" }
+    }
+  },
+  "restaurants": { "eyebrow": "Best addresses", "title": "The best tables, booked for you", "subtitle": "Moroccan tables, seaside restaurants, private experiences, birthdays and parties.", "cta": "Ask for a recommendation" },
+  "packs": {
+    "eyebrow": "Tailored packages", "title": "Turnkey stay packages",
+    "subtitle": "Combine stay, vehicle, activities and private services in one booking.",
+    "recommended": "Recommended", "from": "From", "duration": "{{n}} nights", "cta": "Book this package",
+    "items": {
+      "standard": { "name": "Standard", "old": "4,200", "new": "3,500", "desc": "Ideal for a short comfortable stay.", "incl": ["Apartment", "Standard vehicle", "WhatsApp support"] },
+      "comfort": { "name": "Comfort", "old": "6,500", "new": "5,400", "desc": "The right balance comfort / discovery.", "incl": ["Apartment or villa", "SUV", "1 activity", "24/7 support"] },
+      "premium": { "name": "Premium", "old": "11,800", "new": "9,900", "desc": "Our most popular package.", "incl": ["Villa", "Premium vehicle", "2 activities", "Airport transfer"] },
+      "luxury": { "name": "Luxury", "old": "24,500", "new": "19,900", "desc": "The full BIYOUU experience.", "incl": ["Premium villa", "Luxury vehicle", "Private chef", "Yacht / jet-ski", "Personal concierge"] }
+    }
+  },
+  "trust": {
+    "title": "A clear, monitored and secure booking", "subtitle": "Your peace of mind is at the heart of every step.",
+    "items": {
+      "payment": { "t": "Secure payment", "d": "Encrypted transactions via certified providers." },
+      "availability": { "t": "Verified availability", "d": "Human confirmation within hours." },
+      "documents": { "t": "Protected documents", "d": "Restricted access to authorised people only." },
+      "support": { "t": "24/7 support", "d": "A team reachable at any time." },
+      "partners": { "t": "Vetted partners", "d": "Verified, professional and discreet providers." },
+      "cancel": { "t": "Clear cancellation", "d": "Conditions communicated before payment." }
+    },
+    "note": "Submitted documents are protected and accessible only to authorised people."
+  },
+  "finalCta": { "title": "Ready to plan your stay in Morocco?", "subtitle": "Send us your request — we reply quickly with the best available options.", "primary": "Create my request", "secondary": "Chat on WhatsApp" },
+  "footer": {
+    "tagline": "Private concierge. Northern Morocco. Available 24/7.",
+    "company": "Company", "services": "Services", "legal": "Legal", "contact": "Contact",
+    "links": { "about": "About", "contact": "Contact", "press": "Press", "careers": "Careers", "vehicles": "Vehicles", "stays": "Stays", "activities": "Activities", "packs": "Packages", "terms": "Terms", "privacy": "Privacy", "cookies": "Cookies", "legal": "Legal" },
+    "copyright": "© {{year}} BIYOUU — All rights reserved."
+  },
+  "common": { "language": "Language" }
+}

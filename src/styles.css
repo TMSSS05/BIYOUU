@@ -1,0 +1,232 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * BIYOUU — Premium Moroccan Concierge Design System
+ * Deep emerald, warm sand, copper, ivory. Playfair + Inter.
+ */
+
+@theme inline {
+  --font-display: "Playfair Display", "Cormorant Garamond", ui-serif, Georgia, serif;
+  --font-sans: "Inter", "Manrope", ui-sans-serif, system-ui, sans-serif;
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 16px);
+  --radius-4xl: calc(var(--radius) + 24px);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-glow: var(--primary-glow);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-copper: var(--copper);
+  --color-copper-foreground: var(--copper-foreground);
+  --color-sand: var(--sand);
+  --color-sand-foreground: var(--sand-foreground);
+  --color-ivory: var(--ivory);
+  --color-cream: var(--cream);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --shadow-soft: 0 10px 30px -12px color-mix(in oklab, var(--primary) 18%, transparent);
+  --shadow-elegant: 0 24px 60px -20px color-mix(in oklab, var(--primary) 28%, transparent);
+  --shadow-copper: 0 18px 40px -14px color-mix(in oklab, var(--copper) 35%, transparent);
+}
+
+:root {
+  --radius: 1rem;
+
+  /* Brand */
+  --primary: oklch(0.32 0.06 158);          /* deep emerald #0F3D32 */
+  --primary-glow: oklch(0.42 0.08 158);     /* emerald lighter #145A48 */
+  --primary-foreground: oklch(0.98 0.01 80);
+
+  --copper: oklch(0.62 0.11 45);            /* #B46A4C */
+  --copper-foreground: oklch(0.98 0.01 80);
+
+  --sand: oklch(0.82 0.06 75);              /* #D8B98C */
+  --sand-foreground: oklch(0.25 0.04 50);
+
+  --ivory: oklch(0.985 0.012 85);           /* #FFF9F0 */
+  --cream: oklch(0.965 0.018 80);           /* #F7EFE3 */
+
+  /* Surfaces */
+  --background: oklch(0.985 0.012 85);
+  --foreground: oklch(0.18 0.02 60);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.18 0.02 60);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.18 0.02 60);
+
+  --secondary: oklch(0.94 0.02 80);
+  --secondary-foreground: oklch(0.25 0.04 60);
+  --muted: oklch(0.94 0.015 80);
+  --muted-foreground: oklch(0.45 0.02 60);
+  --accent: oklch(0.92 0.04 75);
+  --accent-foreground: oklch(0.25 0.04 60);
+
+  --destructive: oklch(0.55 0.22 27);
+  --destructive-foreground: oklch(0.98 0.01 80);
+
+  --border: oklch(0.88 0.02 80);
+  --input: oklch(0.9 0.015 80);
+  --ring: var(--primary);
+
+  /* Gradients */
+  --gradient-hero-overlay: linear-gradient(
+    100deg,
+    color-mix(in oklab, var(--primary) 78%, transparent) 0%,
+    color-mix(in oklab, var(--primary) 45%, transparent) 45%,
+    color-mix(in oklab, black 10%, transparent) 100%
+  );
+  --gradient-hero-overlay-mobile: linear-gradient(
+    180deg,
+    color-mix(in oklab, var(--primary) 25%, transparent) 0%,
+    color-mix(in oklab, var(--primary) 15%, transparent) 40%,
+    color-mix(in oklab, var(--primary) 80%, transparent) 100%
+  );
+  --gradient-card: linear-gradient(180deg, transparent 40%, color-mix(in oklab, var(--primary) 75%, transparent) 100%);
+  --gradient-emerald: linear-gradient(135deg, var(--primary) 0%, var(--primary-glow) 100%);
+  --gradient-copper: linear-gradient(135deg, var(--copper) 0%, oklch(0.7 0.13 50) 100%);
+  --gradient-sand: linear-gradient(135deg, var(--sand) 0%, var(--cream) 100%);
+
+  /* Sidebar tokens kept */
+  --sidebar: var(--primary);
+  --sidebar-foreground: var(--ivory);
+  --sidebar-primary: var(--copper);
+  --sidebar-primary-foreground: var(--ivory);
+  --sidebar-accent: oklch(0.38 0.05 158);
+  --sidebar-accent-foreground: var(--ivory);
+  --sidebar-border: oklch(0.42 0.04 158 / 0.4);
+  --sidebar-ring: var(--copper);
+
+  /* Charts */
+  --chart-1: var(--primary);
+  --chart-2: var(--copper);
+  --chart-3: var(--sand);
+  --chart-4: oklch(0.55 0.1 200);
+  --chart-5: oklch(0.7 0.12 60);
+}
+
+.dark {
+  --background: oklch(0.16 0.02 160);
+  --foreground: oklch(0.97 0.012 85);
+  --card: oklch(0.22 0.03 160);
+  --card-foreground: oklch(0.97 0.012 85);
+  --popover: oklch(0.22 0.03 160);
+  --popover-foreground: oklch(0.97 0.012 85);
+  --primary: oklch(0.55 0.09 158);
+  --primary-glow: oklch(0.65 0.1 158);
+  --primary-foreground: oklch(0.12 0.02 160);
+  --secondary: oklch(0.28 0.03 160);
+  --secondary-foreground: oklch(0.97 0.012 85);
+  --muted: oklch(0.28 0.03 160);
+  --muted-foreground: oklch(0.72 0.02 80);
+  --accent: oklch(0.32 0.04 160);
+  --accent-foreground: oklch(0.97 0.012 85);
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: var(--copper);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+
+  /* RTL adjustments */
+  [dir="rtl"] body {
+    font-family: "Cairo", "Tajawal", var(--font-sans);
+  }
+}
+
+@layer utilities {
+  .bg-gradient-emerald { background-image: var(--gradient-emerald); }
+  .bg-gradient-copper { background-image: var(--gradient-copper); }
+  .bg-gradient-sand { background-image: var(--gradient-sand); }
+  .bg-hero-overlay { background-image: var(--gradient-hero-overlay); }
+  .bg-hero-overlay-mobile { background-image: var(--gradient-hero-overlay-mobile); }
+  .bg-card-gradient { background-image: var(--gradient-card); }
+
+  .shadow-soft { box-shadow: var(--shadow-soft); }
+  .shadow-elegant { box-shadow: var(--shadow-elegant); }
+  .shadow-copper { box-shadow: var(--shadow-copper); }
+
+  .glass {
+    background-color: color-mix(in oklab, white 70%, transparent);
+    backdrop-filter: blur(14px) saturate(140%);
+    -webkit-backdrop-filter: blur(14px) saturate(140%);
+    border: 1px solid color-mix(in oklab, white 60%, transparent);
+  }
+  .glass-dark {
+    background-color: color-mix(in oklab, var(--primary) 35%, transparent);
+    backdrop-filter: blur(18px) saturate(140%);
+    -webkit-backdrop-filter: blur(18px) saturate(140%);
+    border: 1px solid color-mix(in oklab, white 18%, transparent);
+  }
+
+  .text-balance { text-wrap: balance; }
+  .text-pretty { text-wrap: pretty; }
+
+  .animate-fade-up {
+    animation: fade-up 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+  .animate-fade-in {
+    animation: fade-in 0.8s ease-out both;
+  }
+
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+  .shimmer {
+    background: linear-gradient(90deg, transparent, color-mix(in oklab, var(--copper) 35%, transparent), transparent);
+    background-size: 200% 100%;
+    animation: shimmer 3s linear infinite;
+  }
+}

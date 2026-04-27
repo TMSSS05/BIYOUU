@@ -1,0 +1,89 @@
+{
+  "nav": { "home": "Home", "vehicles": "Voertuigen", "stays": "Verblijven", "activities": "Activiteiten", "services": "Diensten", "packs": "Pakketten", "contact": "Contact", "book": "Nu boeken", "whatsapp": "WhatsApp 24/7" },
+  "hero": {
+    "eyebrow": "Privé concierge — Noord-Marokko",
+    "title": "Uw privé concierge in Noord-Marokko",
+    "subtitle": "Villa's, premium voertuigen, activiteiten, privédiensten en ervaringen op maat — boek met een team dat 24/7 beschikbaar is.",
+    "ctaPrimary": "Plan mijn verblijf", "ctaSecondary": "Bekijk ervaringen",
+    "micro": "Snel antwoord via WhatsApp — begeleiding voor, tijdens en na uw verblijf.",
+    "badges": { "available": "24/7 beschikbaar", "secure": "Veilig boeken", "premium": "Premium diensten", "north": "Noord-Marokko" },
+    "stats": { "experiences": "120+ ervaringen", "support": "24/7 ondersteuning", "payment": "Veilige betaling", "verified": "Geverifieerde diensten" }
+  },
+  "search": { "destination": "Bestemming", "destinationPlaceholder": "Tanger, Tetouan, Chefchaouen…", "service": "Type dienst", "servicePlaceholder": "Alle diensten", "arrival": "Aankomst", "departure": "Vertrek", "guests": "Reizigers", "guest_one": "{{count}} reiziger", "guest_other": "{{count}} reizigers", "search": "Zoeken" },
+  "categories": {
+    "title": "Uw hele verblijf, op één plek georganiseerd",
+    "subtitle": "Van essentiële diensten tot exclusieve ervaringen, BIYOUU centraliseert elk detail.",
+    "from": "Vanaf", "discover": "Ontdekken",
+    "items": {
+      "vehicles": { "title": "Premium voertuigen", "desc": "Stadsauto, SUV, G-Class, motoren — luchthaven of villa levering.", "price": "350 MAD / dag" },
+      "villas": { "title": "Villa's & appartementen", "desc": "Geselecteerde verblijven met zwembad, zeezicht of patio.", "price": "1.200 MAD / nacht" },
+      "aquatic": { "title": "Wateractiviteiten", "desc": "Jacht, jetski, sunset, privédagen op zee.", "price": "800 MAD / pers." },
+      "land": { "title": "Landactiviteiten", "desc": "Quad, motorcross, paintball, woestijntrips.", "price": "450 MAD / pers." },
+      "services": { "title": "Privédiensten", "desc": "Privé chef, schoonmaak, kinderopvang, chauffeur.", "price": "Op aanvraag" },
+      "restaurants": { "title": "Beste adressen", "desc": "Uitzonderlijke tafels, privé-ervaringen.", "price": "Gratis advies" }
+    }
+  },
+  "experience": {
+    "title": "Een vlotte, elegante en volledig begeleide ervaring",
+    "subtitle": "BIYOUU coördineert elk detail zodat u alleen hoeft te genieten.",
+    "steps": {
+      "choose": { "title": "Kies uw diensten", "desc": "Bekijk categorieën of vraag een pakket op maat." },
+      "dates": { "title": "Bevestig uw data", "desc": "Beschikbaarheid in real-time gecontroleerd." },
+      "pay": { "title": "Betaal veilig", "desc": "Versleutelde betaling, direct ontvangstbewijs." },
+      "enjoy": { "title": "Geniet van uw verblijf", "desc": "24/7 WhatsApp-ondersteuning." }
+    }
+  },
+  "vehicles": {
+    "eyebrow": "Privémobiliteit", "title": "Premium mobiliteit, vanaf uw aankomst",
+    "subtitle": "Geverifieerde voertuigen, geleverd op de luchthaven of bij uw villa.",
+    "points": { "verified": "Geverifieerd en onderhouden", "delivery": "Levering luchthaven of verblijf", "driver": "Privéchauffeur op aanvraag", "docs": "Vereiste documenten duidelijk" },
+    "cta": "Voertuig boeken", "perDay": "/ dag",
+    "fleet": { "city": "Elegante stadsauto", "suv": "Comfort SUV", "gclass": "G-Class luxe", "moto": "Sportmotor" }
+  },
+  "villas": { "eyebrow": "Uitzonderlijke verblijven", "title": "Villa's, appartementen en geselecteerde adressen", "subtitle": "Verblijven gericht op comfort, privacy en de Marokkaanse ervaring.", "tags": ["Zeezicht", "Privé zwembad", "Patio", "Familie", "Koppels"], "cta": "Verblijven bekijken" },
+  "aquatic": { "eyebrow": "Zee & sensatie", "title": "Zee, jacht, jetski en privédagen", "subtitle": "Beleef de Marokkaanse kust met begeleide activiteiten.", "items": ["Bootdag", "Jacht charter", "Jetski", "Sunset", "Waterpakket"], "cta": "Wateractiviteiten ontdekken" },
+  "land": { "eyebrow": "Landavonturen", "title": "Adrenaline, woestijn en ontdekkingen", "subtitle": "Quad, motorcross, paintball, trips voor alle niveaus.", "items": ["Quad", "Motorcross", "Paintball", "Trips", "Natuur"], "cta": "Avonturen ontdekken" },
+  "services": {
+    "eyebrow": "Privédiensten", "title": "Een discreet, geverifieerd team tot uw dienst",
+    "subtitle": "Geselecteerd personeel, beschikbaarheid op maat.",
+    "items": {
+      "chef": { "title": "Privé chef", "desc": "Marokkaanse of internationale keuken bij u thuis.", "cta": "Chef boeken" },
+      "housekeeping": { "title": "Premium schoonmaak", "desc": "Dagelijks of eenmalig.", "cta": "Aanvragen" },
+      "childcare": { "title": "Kinderopvang", "desc": "Ervaren meertalige nannies.", "cta": "Regelen" },
+      "driver": { "title": "Privéchauffeur", "desc": "Per uur, dag of transfer.", "cta": "Boeken" },
+      "transfer": { "title": "Luchthaventransfer", "desc": "VIP welkom, voertuig naar keuze.", "cta": "Aankomst plannen" }
+    }
+  },
+  "restaurants": { "eyebrow": "Beste adressen", "title": "De beste tafels, voor u gereserveerd", "subtitle": "Marokkaanse tafels, restaurants aan zee, privé-ervaringen.", "cta": "Aanbeveling vragen" },
+  "packs": {
+    "eyebrow": "Pakketten op maat", "title": "Kant-en-klare verblijfpakketten",
+    "subtitle": "Combineer verblijf, voertuig, activiteiten en diensten in één boeking.",
+    "recommended": "Aanbevolen", "from": "Vanaf", "duration": "{{n}} nachten", "cta": "Dit pakket boeken",
+    "items": {
+      "standard": { "name": "Standard", "old": "4.200", "new": "3.500", "desc": "Ideaal voor een kort comfortabel verblijf.", "incl": ["Appartement", "Standaard voertuig", "WhatsApp-ondersteuning"] },
+      "comfort": { "name": "Comfort", "old": "6.500", "new": "5.400", "desc": "De juiste balans.", "incl": ["Appartement of villa", "SUV", "1 activiteit", "24/7 ondersteuning"] },
+      "premium": { "name": "Premium", "old": "11.800", "new": "9.900", "desc": "Ons populairste pakket.", "incl": ["Villa", "Premium voertuig", "2 activiteiten", "Transfer"] },
+      "luxury": { "name": "Luxe", "old": "24.500", "new": "19.900", "desc": "De volledige BIYOUU-ervaring.", "incl": ["Premium villa", "Luxe voertuig", "Privé chef", "Jacht / jetski", "Persoonlijke concierge"] }
+    }
+  },
+  "trust": {
+    "title": "Een duidelijke, gevolgde en veilige boeking", "subtitle": "Uw rust staat centraal.",
+    "items": {
+      "payment": { "t": "Veilige betaling", "d": "Versleutelde transacties." },
+      "availability": { "t": "Geverifieerde beschikbaarheid", "d": "Menselijke bevestiging." },
+      "documents": { "t": "Beschermde documenten", "d": "Beperkte toegang." },
+      "support": { "t": "24/7 ondersteuning", "d": "Altijd bereikbaar team." },
+      "partners": { "t": "Geselecteerde partners", "d": "Geverifieerde professionals." },
+      "cancel": { "t": "Duidelijke annulering", "d": "Voorwaarden vooraf gecommuniceerd." }
+    },
+    "note": "Verstuurde documenten zijn beschermd en alleen toegankelijk voor bevoegde personen."
+  },
+  "finalCta": { "title": "Klaar om uw verblijf in Marokko te plannen?", "subtitle": "Stuur uw aanvraag — wij antwoorden snel met de beste opties.", "primary": "Mijn aanvraag aanmaken", "secondary": "Chat op WhatsApp" },
+  "footer": {
+    "tagline": "Privé concierge. Noord-Marokko. 24/7 beschikbaar.",
+    "company": "Bedrijf", "services": "Diensten", "legal": "Juridisch", "contact": "Contact",
+    "links": { "about": "Over ons", "contact": "Contact", "press": "Pers", "careers": "Vacatures", "vehicles": "Voertuigen", "stays": "Verblijven", "activities": "Activiteiten", "packs": "Pakketten", "terms": "Voorwaarden", "privacy": "Privacy", "cookies": "Cookies", "legal": "Juridisch" },
+    "copyright": "© {{year}} BIYOUU — Alle rechten voorbehouden."
+  },
+  "common": { "language": "Taal" }
+}

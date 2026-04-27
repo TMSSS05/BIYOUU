@@ -1,0 +1,15 @@
+export const assets = {
+  heroDesktop: "/images/hero-desktop.webp",
+  heroMobile: "/images/hero-mobile.webp",
+  vehicles: "/images/vehicles.jpg",
+  villas: "/images/villas.jpg",
+  aquaticDesktop: "/images/aquatic-desktop.webp",
+  aquaticMobile: "/images/aquatic-mobile.webp",
+  landDesktop: "/images/land-desktop.webp",
+  landMobile: "/images/land-mobile.webp",
+  restaurants: "/images/restaurants.webp",
+  chef: "/images/chef.webp",
+  housekeeping: "/images/housekeeping.webp",
+  childcare: "/images/childcare.webp",
+  abstractBg: "/images/abstract-bg.jpg",
+} as const;

@@ -1,0 +1,186 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "vehicles": "Véhicules",
+    "stays": "Logements",
+    "activities": "Activités",
+    "services": "Services",
+    "packs": "Packs",
+    "contact": "Contact",
+    "book": "Réserver maintenant",
+    "whatsapp": "WhatsApp 24/7"
+  },
+  "hero": {
+    "eyebrow": "Conciergerie privée — Nord du Maroc",
+    "title": "Votre conciergerie privée dans le Nord du Maroc",
+    "subtitle": "Villas, véhicules premium, activités, services privés et expériences sur mesure — réservez votre séjour avec une équipe disponible 24h/24.",
+    "ctaPrimary": "Planifier mon séjour",
+    "ctaSecondary": "Voir les expériences",
+    "micro": "Réponse rapide sur WhatsApp — accompagnement avant, pendant et après votre séjour.",
+    "badges": {
+      "available": "Disponible 24h/24",
+      "secure": "Réservation sécurisée",
+      "premium": "Services premium",
+      "north": "Nord du Maroc"
+    },
+    "stats": {
+      "experiences": "120+ expériences organisées",
+      "support": "Assistance 24/7",
+      "payment": "Paiement sécurisé",
+      "verified": "Services vérifiés"
+    }
+  },
+  "search": {
+    "destination": "Destination",
+    "destinationPlaceholder": "Tanger, Tétouan, Chefchaouen…",
+    "service": "Type de service",
+    "servicePlaceholder": "Tous les services",
+    "arrival": "Arrivée",
+    "departure": "Départ",
+    "guests": "Voyageurs",
+    "guest_one": "{{count}} voyageur",
+    "guest_other": "{{count}} voyageurs",
+    "search": "Rechercher"
+  },
+  "categories": {
+    "title": "Tout votre séjour, organisé au même endroit",
+    "subtitle": "Des services essentiels aux expériences exclusives, BIYOUU centralise chaque détail de votre voyage.",
+    "from": "À partir de",
+    "discover": "Découvrir",
+    "items": {
+      "vehicles": { "title": "Véhicules premium", "desc": "Citadines, SUV, G-Class, deux-roues — livraison aéroport ou villa.", "price": "350 MAD / jour" },
+      "villas": { "title": "Villas & appartements", "desc": "Adresses sélectionnées avec piscine, vue mer ou patio marocain.", "price": "1 200 MAD / nuit" },
+      "aquatic": { "title": "Activités aquatiques", "desc": "Yacht, jet-ski, sortie sunset, journées privées en mer.", "price": "800 MAD / pers." },
+      "land": { "title": "Activités terrestres", "desc": "Quad, moto cross, paintball, excursions désert et nature.", "price": "450 MAD / pers." },
+      "services": { "title": "Services privés", "desc": "Chef à domicile, ménage, garde d'enfants, chauffeur privé.", "price": "Sur devis" },
+      "restaurants": { "title": "Bonnes adresses", "desc": "Tables d'exception, expériences privées, réservations accompagnées.", "price": "Conseil offert" }
+    }
+  },
+  "experience": {
+    "title": "Une expérience fluide, élégante et entièrement accompagnée",
+    "subtitle": "BIYOUU coordonne chaque détail pour que vous n'ayez plus qu'à profiter.",
+    "steps": {
+      "choose": { "title": "Choisissez vos services", "desc": "Parcourez nos catégories ou demandez un pack sur mesure." },
+      "dates": { "title": "Validez vos dates", "desc": "Disponibilités vérifiées en temps réel par notre équipe." },
+      "pay": { "title": "Payez en sécurité", "desc": "Paiement crypté, reçu instantané, données protégées." },
+      "enjoy": { "title": "Profitez de votre séjour", "desc": "Assistance dédiée 24h/24 sur WhatsApp pour chaque demande." }
+    }
+  },
+  "vehicles": {
+    "eyebrow": "Mobilité privée",
+    "title": "Mobilité premium, dès votre arrivée",
+    "subtitle": "Des véhicules vérifiés, livrés à l'aéroport ou à votre villa, avec ou sans chauffeur.",
+    "points": {
+      "verified": "Véhicules vérifiés et entretenus",
+      "delivery": "Livraison aéroport ou logement",
+      "driver": "Chauffeur privé sur demande",
+      "docs": "Documents requis clairement indiqués"
+    },
+    "cta": "Réserver un véhicule",
+    "perDay": "/ jour",
+    "fleet": {
+      "city": "Citadine élégante",
+      "suv": "SUV confort",
+      "gclass": "G-Class luxe",
+      "moto": "Deux-roues sport"
+    }
+  },
+  "villas": {
+    "eyebrow": "Logements d'exception",
+    "title": "Villas, appartements et adresses sélectionnées",
+    "subtitle": "Des logements pensés pour le confort, la confidentialité et l'expérience marocaine.",
+    "tags": ["Vue mer", "Piscine privée", "Patio", "Famille", "Couples"],
+    "cta": "Voir les logements"
+  },
+  "aquatic": {
+    "eyebrow": "Mer & sensations",
+    "title": "Mer, yacht, jet-ski et journées privées",
+    "subtitle": "Vivez la côte marocaine autrement avec des activités aquatiques organisées et encadrées.",
+    "items": ["Journée bateau", "Location yacht", "Jet-ski", "Sortie sunset", "Pack aquatique"],
+    "cta": "Explorer les activités aquatiques"
+  },
+  "land": {
+    "eyebrow": "Aventures terrestres",
+    "title": "Adrénaline, désert et découvertes",
+    "subtitle": "Quad, moto cross, paintball, excursions — pour tous les niveaux, encadrés par des pros.",
+    "items": ["Quad", "Moto cross", "Paintball", "Excursions", "Activités nature"],
+    "cta": "Découvrir les aventures"
+  },
+  "services": {
+    "eyebrow": "Services privés",
+    "title": "Une équipe discrète, vérifiée, à votre service",
+    "subtitle": "Personnel sélectionné, références contrôlées, disponibilité selon vos créneaux.",
+    "items": {
+      "chef": { "title": "Chef à domicile", "desc": "Cuisine marocaine ou internationale, dressé chez vous.", "cta": "Réserver un chef" },
+      "housekeeping": { "title": "Ménage premium", "desc": "Entretien quotidien ou ponctuel de votre logement.", "cta": "Demander un service" },
+      "childcare": { "title": "Garde d'enfants", "desc": "Nounous expérimentées, parlant plusieurs langues.", "cta": "Organiser une garde" },
+      "driver": { "title": "Chauffeur privé", "desc": "À l'heure, à la journée ou pour vos transferts.", "cta": "Réserver un chauffeur" },
+      "transfer": { "title": "Transfert aéroport", "desc": "Accueil VIP, véhicule au choix, suivi en temps réel.", "cta": "Préparer mon arrivée" }
+    }
+  },
+  "restaurants": {
+    "eyebrow": "Bonnes adresses",
+    "title": "Les meilleures adresses, réservées pour vous",
+    "subtitle": "Tables marocaines, restaurants en bord de mer, expériences privées, anniversaires et soirées.",
+    "cta": "Demander une recommandation"
+  },
+  "packs": {
+    "eyebrow": "Packs sur mesure",
+    "title": "Packs séjour clés en main",
+    "subtitle": "Combinez logement, véhicule, activités et services privés dans une seule réservation.",
+    "recommended": "Recommandé",
+    "from": "À partir de",
+    "duration": "{{n}} nuits",
+    "cta": "Réserver ce pack",
+    "items": {
+      "standard": { "name": "Standard", "old": "4 200", "new": "3 500", "desc": "Idéal pour un court séjour confortable.", "incl": ["Appartement", "Véhicule standard", "Assistance WhatsApp"] },
+      "comfort": { "name": "Confort", "old": "6 500", "new": "5 400", "desc": "Le bon équilibre confort / découverte.", "incl": ["Appartement ou villa", "SUV", "1 activité au choix", "Assistance 24/7"] },
+      "premium": { "name": "Premium", "old": "11 800", "new": "9 900", "desc": "Notre formule la plus demandée.", "incl": ["Villa", "Véhicule premium", "2 activités", "Transfert aéroport"] },
+      "luxury": { "name": "Luxe", "old": "24 500", "new": "19 900", "desc": "L'expérience BIYOUU dans son intégralité.", "incl": ["Villa premium", "Véhicule luxe", "Chef privé", "Yacht / jet-ski", "Accompagnement personnalisé"] }
+    }
+  },
+  "trust": {
+    "title": "Une réservation claire, suivie et sécurisée",
+    "subtitle": "Votre tranquillité est au cœur de chaque étape.",
+    "items": {
+      "payment": { "t": "Paiement sécurisé", "d": "Transactions cryptées via prestataires certifiés." },
+      "availability": { "t": "Disponibilité vérifiée", "d": "Confirmation humaine sous quelques heures." },
+      "documents": { "t": "Documents protégés", "d": "Accès restreint aux personnes autorisées." },
+      "support": { "t": "Assistance 24/7", "d": "Une équipe joignable à tout moment." },
+      "partners": { "t": "Partenaires sélectionnés", "d": "Prestataires vérifiés, professionnels et discrets." },
+      "cancel": { "t": "Annulation encadrée", "d": "Conditions claires communiquées avant paiement." }
+    },
+    "note": "Les documents transmis sont protégés et accessibles uniquement aux personnes autorisées."
+  },
+  "finalCta": {
+    "title": "Prêt à organiser votre séjour au Maroc ?",
+    "subtitle": "Envoyez votre demande, notre équipe vous répond rapidement avec les meilleures options disponibles.",
+    "primary": "Créer ma demande",
+    "secondary": "Contacter sur WhatsApp"
+  },
+  "footer": {
+    "tagline": "Conciergerie privée. Nord du Maroc. Disponible 24h/24.",
+    "company": "Société",
+    "services": "Services",
+    "legal": "Légal",
+    "contact": "Contact",
+    "links": {
+      "about": "À propos",
+      "contact": "Contact",
+      "press": "Presse",
+      "careers": "Carrières",
+      "vehicles": "Véhicules",
+      "stays": "Logements",
+      "activities": "Activités",
+      "packs": "Packs",
+      "terms": "CGV",
+      "privacy": "Confidentialité",
+      "cookies": "Cookies",
+      "legal": "Mentions légales"
+    },
+    "copyright": "© {{year}} BIYOUU — Tous droits réservés."
+  },
+  "common": {
+    "language": "Langue"
+  }
+}
