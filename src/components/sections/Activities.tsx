@@ -8,8 +8,8 @@ export function Activities() {
   const land = t("land.items", { returnObjects: true }) as string[];
 
   return (
-    <section id="activities" className="px-5 py-24 md:px-8 md:py-32">
-      <div className="mx-auto grid max-w-7xl gap-6 lg:grid-cols-2">
+    <section id="activities" className="w-full max-w-full px-4 py-20 sm:px-5 sm:py-24 md:px-8 md:py-32">
+      <div className="mx-auto w-full max-w-[430px] gap-5 sm:max-w-[480px] md:max-w-7xl md:grid md:grid-cols-2">
         <ActivityCard
           id="aquatic"
           icon={Waves}
@@ -52,28 +52,28 @@ function ActivityCard({
     : "from-[oklch(0.28_0.06_45)]/90 via-[oklch(0.4_0.08_55)]/55";
 
   return (
-    <article id={id} className="group relative isolate flex aspect-[4/5] overflow-hidden rounded-[2rem] shadow-elegant md:aspect-[5/6]">
+    <article id={id} className="group relative isolate flex aspect-[4/5] w-full overflow-hidden rounded-2xl shadow-elegant sm:aspect-[4/5] sm:rounded-[28px] md:aspect-[5/6] md:rounded-[2rem]">
       <picture>
         <source media="(min-width: 768px)" srcSet={imgDesktop} />
         <img src={imgMobile} alt="" aria-hidden loading="lazy" className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
       </picture>
       <div className={`absolute inset-0 bg-gradient-to-t ${overlay} to-transparent`} />
-      <div className="relative z-10 mt-auto flex w-full flex-col gap-4 p-7 text-ivory md:p-9">
+      <div className="relative z-10 mt-auto flex w-full flex-col gap-3 p-5 text-ivory sm:gap-4 sm:p-6 md:gap-4 md:p-7 lg:p-9">
         <div className="flex items-center gap-2">
-          <Icon className="h-5 w-5 text-copper" />
-          <span className="text-xs font-semibold uppercase tracking-[0.22em] text-copper">{eyebrow}</span>
+          <Icon className="h-4 w-4 text-copper sm:h-5 sm:w-5" />
+          <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-copper sm:text-xs sm:tracking-[0.22em]">{eyebrow}</span>
         </div>
-        <h3 className="font-display text-3xl leading-tight text-ivory md:text-4xl">{title}</h3>
-        <p className="max-w-md text-sm leading-relaxed text-ivory/85">{subtitle}</p>
+        <h3 className="font-display text-[24px] leading-tight text-ivory sm:text-[28px] md:text-3xl lg:text-4xl">{title}</h3>
+        <p className="max-w-md text-[13px] leading-relaxed text-ivory/85 sm:text-sm">{subtitle}</p>
         <ul className="flex flex-wrap gap-2">
           {items.map((it) => (
-            <li key={it} className="rounded-full border border-white/25 bg-white/10 px-3 py-1 text-xs font-medium text-ivory backdrop-blur-md">
+            <li key={it} className="rounded-full border border-white/25 bg-white/10 px-2.5 py-1 text-[11px] font-medium text-ivory backdrop-blur-md sm:px-3 sm:py-1 sm:text-xs">
               {it}
             </li>
           ))}
         </ul>
-        <a href="#packs" className="mt-2 inline-flex w-fit items-center gap-2 rounded-full bg-copper px-5 py-3 text-sm font-semibold text-copper-foreground shadow-copper transition-transform hover:-translate-y-0.5">
-          {cta} <ArrowRight className="h-4 w-4 rtl:rotate-180" />
+        <a href="#packs" className="mt-2 inline-flex w-fit items-center gap-2 rounded-full bg-copper px-4 py-2.5 text-[12px] font-semibold text-copper-foreground shadow-copper transition-transform hover:-translate-y-0.5 sm:px-5 sm:py-3 sm:text-sm">
+          {cta} <ArrowRight className="h-3.5 w-3.5 rtl:rotate-180 sm:h-4 sm:w-4" />
         </a>
       </div>
     </article>

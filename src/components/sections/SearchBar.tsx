@@ -64,9 +64,9 @@ export function SearchBar() {
   };
 
   return (
-    <section className="relative z-30 -mt-16 px-5 md:px-8">
+    <section className="relative z-30 -mt-14 w-full max-w-full px-4 sm:px-5 md:-mt-16 md:px-8">
       <form
-        className="mx-auto grid max-w-6xl gap-3 rounded-3xl border border-border/70 bg-card/95 p-4 shadow-elegant backdrop-blur-xl md:grid-cols-[1.4fr_1.2fr_1fr_1fr_0.9fr_auto] md:gap-2 md:p-3"
+        className="mx-auto grid w-full max-w-[430px] gap-3 rounded-2xl border border-border/70 bg-card/95 p-3.5 shadow-elegant backdrop-blur-xl sm:max-w-[480px] sm:p-4 md:max-w-6xl md:grid-cols-[1.4fr_1.2fr_1fr_1fr_0.9fr_auto] md:gap-2 md:rounded-3xl md:p-3"
         onSubmit={(e) => e.preventDefault()}
       >
         {/* Destination */}
@@ -440,14 +440,14 @@ function Field({
 }) {
   return (
     <label className={cn(
-      "flex items-center gap-3 rounded-2xl border border-transparent bg-cream/60 px-3.5 py-2.5 transition-all duration-200",
+      "flex items-center gap-2.5 rounded-xl border border-transparent bg-cream/60 px-3 py-2 transition-all duration-200 sm:gap-3 sm:rounded-2xl sm:px-3.5 sm:py-2.5",
       isActive 
         ? "border-primary/40 bg-cream shadow-sm" 
         : "focus-within:border-primary/40 focus-within:bg-cream"
     )}>
       <Icon className="h-4 w-4 shrink-0 text-primary" />
       <div className="min-w-0 flex-1">
-        <span className="block text-[10px] font-semibold uppercase tracking-[0.14em] text-muted-foreground">
+        <span className="block text-[10px] font-semibold uppercase tracking-[0.12em] text-muted-foreground sm:text-[10px] sm:tracking-[0.14em]">
           {label}
         </span>
         {children}

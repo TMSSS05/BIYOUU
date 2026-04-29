@@ -18,8 +18,8 @@ export function Hero() {
   }
 
   return (
-    <section id="top" className="relative isolate overflow-hidden text-ivory">
-      {/* Background images */}
+    <section id="top" className="relative isolate min-h-[100svh] w-full max-w-full overflow-hidden text-ivory">
+      {/* Background images - full width */}
       <picture>
         <source media="(min-width: 768px)" srcSet={assets.heroDesktop} />
         <img
@@ -43,57 +43,58 @@ export function Hero() {
         }}
       />
 
-      <div className="relative mx-auto flex min-h-[88vh] max-w-7xl flex-col justify-end px-5 pb-16 pt-32 md:min-h-[92vh] md:justify-center md:px-8 md:pb-24 md:pt-32">
-        <div className="max-w-2xl animate-fade-up">
-          <span className="inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-3.5 py-1.5 text-xs font-medium uppercase tracking-[0.18em] text-ivory backdrop-blur-md">
+      {/* Mobile-first container: centered, max-width mobile */}
+      <div className="relative mx-auto flex min-h-[100svh] w-full max-w-[430px] flex-col justify-end px-5 pb-6 pt-20 sm:max-w-[480px] md:min-h-[92vh] md:max-w-7xl md:justify-center md:px-8 md:pb-24 md:pt-32">
+        <div className="max-w-xl animate-fade-up">
+          <span className="inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-3 py-1 text-[11px] font-medium uppercase tracking-[0.16em] text-ivory backdrop-blur-md">
             <span className="h-1.5 w-1.5 rounded-full bg-copper" />
             {t("hero.eyebrow")}
           </span>
 
-          <h1 className="mt-6 font-display text-4xl leading-[1.05] text-balance text-ivory sm:text-5xl md:text-6xl lg:text-7xl">
+          <h1 className="mt-5 font-display text-[34px] leading-[1.02] text-balance text-ivory sm:text-[38px] md:text-6xl lg:text-7xl">
             {t("hero.title")}
           </h1>
 
-          <p className="mt-5 max-w-xl text-pretty text-base leading-relaxed text-ivory/85 md:text-lg">
+          <p className="mt-4 max-w-xl text-pretty text-[15px] leading-[1.65] text-ivory/85 sm:text-base md:text-lg">
             {t("hero.subtitle")}
           </p>
 
-          <div className="mt-7 flex flex-wrap gap-2.5">
+          <div className="mt-6 flex flex-wrap gap-2">
             {badges.map(({ icon: Icon, key }) => (
               <span
                 key={key}
-                className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/8 px-3 py-1.5 text-xs font-medium text-ivory/90 backdrop-blur-md"
+                className="inline-flex items-center gap-1.5 rounded-full border border-white/20 bg-white/8 px-2.5 py-1 text-[11px] font-medium text-ivory/90 backdrop-blur-md"
               >
-                <Icon className="h-3.5 w-3.5 text-copper" />
+                <Icon className="h-3 w-3 text-copper" />
                 {t(`hero.badges.${key}`)}
               </span>
             ))}
           </div>
 
-          <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
             <a
               href="#packs"
-              className="group inline-flex items-center justify-center gap-2 rounded-full bg-copper px-7 py-4 text-sm font-semibold text-copper-foreground shadow-copper transition-all hover:-translate-y-0.5 hover:shadow-elegant"
+              className="group inline-flex items-center justify-center gap-2 rounded-full bg-copper px-6 py-3.5 text-sm font-semibold text-copper-foreground shadow-copper transition-all hover:-translate-y-0.5 hover:shadow-elegant sm:px-7 sm:py-4"
             >
               {t("hero.ctaPrimary")}
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1 rtl:rotate-180 rtl:group-hover:-translate-x-1" />
             </a>
             <a
               href="#categories"
-              className="inline-flex items-center justify-center gap-2 rounded-full border border-white/30 bg-white/10 px-7 py-4 text-sm font-semibold text-ivory backdrop-blur-md transition-colors hover:bg-white/20"
+              className="inline-flex items-center justify-center gap-2 rounded-full border border-white/30 bg-white/10 px-6 py-3.5 text-sm font-semibold text-ivory backdrop-blur-md transition-colors hover:bg-white/20 sm:px-7 sm:py-4"
             >
               {t("hero.ctaSecondary")}
             </a>
           </div>
 
-          <p className="mt-5 flex items-center gap-2 text-xs text-ivory/70">
+          <p className="mt-4 flex items-center gap-2 text-[11px] text-ivory/70">
             <MessageCircle className="h-3.5 w-3.5 text-copper" />
             {t("hero.micro")}
           </p>
         </div>
 
-        {/* Floating stats */}
-        <div className="relative mt-12 hidden max-w-xl gap-3 md:grid md:grid-cols-2">
+        {/* Floating stats - desktop only */}
+        <div className="relative mt-10 hidden max-w-xl gap-3 md:grid md:grid-cols-2 lg:mt-12">
           {stats.map((s) => (
             <div
               key={s}
@@ -107,7 +108,7 @@ export function Hero() {
       </div>
 
       {/* Soft fade to next section */}
-      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-gradient-to-b from-transparent to-background" aria-hidden />
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-20 bg-gradient-to-b from-transparent to-background md:h-24" aria-hidden />
     </section>
   );
 }

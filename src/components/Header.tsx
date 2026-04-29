@@ -69,9 +69,9 @@ export function Header() {
     : "text-foreground/80";
 
   return (
-    <header className={`fixed inset-x-0 top-0 z-40 transition-all duration-500 ${headerClass}`}>
-      <div className="mx-auto flex h-[72px] max-w-7xl items-center justify-between gap-4 px-5 md:px-8">
-        <Link to="/" aria-label="BIYOUU" className="shrink-0 -ml-2">
+    <header className={`fixed inset-x-0 top-0 z-40 w-full max-w-full overflow-hidden transition-all duration-500 ${headerClass}`}>
+      <div className="mx-auto flex h-[64px] w-full max-w-[430px] items-center justify-between gap-3 px-4 sm:max-w-[480px] sm:px-5 md:h-[72px] md:max-w-7xl md:gap-4 md:px-8">
+        <Link to="/" aria-label="BIYOUU" className="shrink-0 min-w-0">
           <Logo variant={transparent ? "light" : "dark"} />
         </Link>
 
